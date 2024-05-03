@@ -38,3 +38,12 @@ nav a{
     margin-top: 10px;
     background: aqua;
 }
+
+.cor:hover {
+    background-color: yellow;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}

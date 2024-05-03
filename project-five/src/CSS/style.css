@@ -59,7 +59,7 @@ section {
   height: 400px;
 }
 
-#image {
+#image:hover {
     animation: efeito 0.6s ease-in-out infinite;
 }
 
@@ -67,10 +67,12 @@ section {
   0%,
   100% {
     transform: scale(1);
+    transform: rotate(0deg);
     transform: translateY(50px);
   }
   50% {
     transform: scale(1.1);
+    transform: rotate(180deg);
     filter: drop-shadow(blue 0 0 2rem);
   }
 }

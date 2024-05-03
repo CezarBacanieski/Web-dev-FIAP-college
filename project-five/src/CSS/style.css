@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #6b6b6b;
+}
+nav ul{
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    width: 150px;
+    float: left; 
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color:aqua;
+
+}
+
+.cor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background: aqua;
+}
